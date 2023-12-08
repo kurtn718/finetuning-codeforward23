@@ -9,7 +9,8 @@ one can skip the part on installing Cuda drivers.
 
 You do need to make the Conda environment available to the Notebook:   
 
-pip install llm-env (after installing everything else)
+pip install ipykernel (after installing everything else)
+
 python -m ipykernel install --user --name=llm-env
 
 https://github.com/vmware-ai-labs/VMware-generative-ai-reference-architecture/tree/main/Examples/LLM-fine-tuning-example

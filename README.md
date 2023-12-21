@@ -7,8 +7,8 @@ This repo contains a finetuned Mistral 7B model using the [Ludwig](https://ludwi
 
 The notebooks assume that a Conda environment with Ludwig is already setup.   You can refer to the following for setup
 
-* [How to setup Conda environment](# Miniconda installation steps.)
-* [Setting-up the virtual env for LLM tasks](#Setting-up the virtual env for LLM tasks)
+* [How to setup Conda environment](#-Miniconda-installation-steps)
+* [Setting-up the virtual env for LLM tasks](#Setting-up-the-virtual-env-for-LLMtasks)
 
 These notebooks were creating using version 0.8.6 of Ludwig. Fine-tuning was done on a single A100 with 80GB of Ram in less than one hour.  If using 4-bit quantization the fine-tuning can be done on less powerful GPUs. Using a virtual Python environment such as Conda or venv is highly recommended - especially if running on a cloud training environment!   
  
@@ -31,7 +31,7 @@ https://github.com/vmware-ai-labs/VMware-generative-ai-reference-architecture/tr
 Tip: You definitely want to use a Virtual Python environment if you just follow the above tutorial.
 
 
-# Miniconda installation steps.
+# Miniconda installation steps
 
 We recommend the use of [Miniconda](https://docs.conda.io/en/latest/miniconda.html) as the Python package management 
 system over the default distributions embedded in the OS. Here the shell commands you need to run to set up a Python 
@@ -61,7 +61,7 @@ conda init
 Then run the following commands to create a conda virtual environment:
 
 ```shell
-## Setting-up the virtual env for LLM tasks
+## Setting up the virtual env for LLM tasks
 
 # Create the conda virtual env
 

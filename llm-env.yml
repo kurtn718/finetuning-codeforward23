@@ -1,0 +1,11 @@
+name: llm-env
+channels:
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.10
+  - pip
+
+  - pip:
+      - ludwig==0.8.6
+      - ipykernel
